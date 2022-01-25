@@ -6,6 +6,8 @@
 <html>
     <head>
         <title>INDEX AASHOP</title>
+
+        <link href="<?php echo BASE_URL."css/styles.css"; ?>" type="text/css" rel="stylesheet" />
     </head>
 
     <body>
@@ -21,7 +23,7 @@
                         <a href="<?php echo BASE_URL."index.php?page=register"; ?>">Register</a>
                     </div>
 
-                    <a href="<?php echo BASE_URL."index.php?page=keranjang"; ?>">
+                    <a href="<?php echo BASE_URL."index.php?page=keranjang"; ?>" id="button-keranjang">
                     <img src="<?php echo BASE_URL."images/cart.png"; ?>" />
                     </a>
                 </div>
@@ -32,7 +34,7 @@
             <div id="footer">
                 <p>Copyright aashop 2022</p>
             </div>
-            
+
         </div>  
     </body>
 </html>
