@@ -22,7 +22,7 @@
 
                 <div id="menu">
                     <div id="user">
-                        <a href="<?php echo BASE_URL."index.php?page=login"; ?>">Login</a>
+                        <a href="<?php echo BASE_URL."index.php?page=content/login"; ?>">Login</a>
                         <a href="<?php echo BASE_URL."index.php?page=content/register"; ?>">Register</a>
                     </div>
 
