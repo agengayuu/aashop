@@ -32,7 +32,7 @@
         </div>
 
         <div class="element-form">
-            <span><input type="submite" value="register" /></span>
+            <span><input type="submit" value="register" /></span>
         </div>
 
     </form>
