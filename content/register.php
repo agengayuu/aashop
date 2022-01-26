@@ -10,6 +10,8 @@
 
             if($notif == "require"){
                 echo"<div class='notif'>Maaf, kamu harus melengkapi form dibawah ini.</div><br>";
+            } elseif($notif == "password") {
+                echo"<div class='notif'>Maaf, password yang kamu masukkan tidak sama.</div><br>";    
             }
         ?>
 
