@@ -9,9 +9,11 @@
             $alamat = isset($_GET['alamat']) ? $_GET['alamat'] : false;
 
             if($notif == "require"){
-                echo"<div class='notif'>Maaf, kamu harus melengkapi form dibawah ini.</div><br>";
+                echo"<div class='notif'><center>🙏 Maaf, kamu harus melengkapi form dibawah ini.</center></div><br>";
             } elseif($notif == "password") {
-                echo"<div class='notif'>Maaf, password yang kamu masukkan tidak sama.</div><br>";    
+                echo"<div class='notif'><center>🙏 Maaf, password yang kamu masukkan tidak sama.</center></div><br>";    
+            } elseif($notif == "email") {
+                echo"<div class='notif'><center>🙏 Maaf, email yang kamu masukkan sudah terdaftar.</center></div><br>";    
             }
         ?>
 

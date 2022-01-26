@@ -93,6 +93,14 @@ body {
     background: orange;
 }
 
+.notif {
+    background: red;
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 11px;
+}
+
 #container #footer {
     background: #1e5475;
     padding: 10px;
