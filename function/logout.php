@@ -5,5 +5,5 @@
     unset($_SESSION['nama']);
     unset($_SESSION['level']);
 
-    header("location: ./index.php");
+    header("location: ../index.php");
 ?>
