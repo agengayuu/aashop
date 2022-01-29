@@ -23,7 +23,7 @@
         <div id="container">
             <div id="header">
                 <a href="<?php echo BASE_URL."index.php"; ?>">
-                    <img src="<?php echo BASE_URL."images/logo.png"; ?>" alt="">
+                    <img src="<?php echo BASE_URL."images/logo.jpg"; ?>" width="100" height="100" alt="">
                 </a>
 
                 <div id="menu">
